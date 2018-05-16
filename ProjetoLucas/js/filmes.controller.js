@@ -1,5 +1,5 @@
 angular.module("Filmes").controller("FilmesController", function($scope){
-	$scope.titulo = "Filmes que já assisti!";
+	$scope.titulo = "Filmes que já assisti";
 
 	$scope.filmes = [];
 
@@ -13,11 +13,12 @@ angular.module("Filmes").controller("FilmesController", function($scope){
 		});
 	}
 
-	$scope.adicionarFilme = function() {
+	$scope.adicionarFilme = function(){
 		var filme = angular.copy($scope.novoFilme);
 		filme.id = Date.now();
 		$scope.filmes.push(filme);
 
 		$scope.novoFilme = {};
 	}
+
 });

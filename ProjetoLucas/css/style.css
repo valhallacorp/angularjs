@@ -1,12 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,400italic,700,700italic,300italic);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css);
 
-*{
+* {
 	box-sizing: border-box;
 }
 
 body {
-	font-family: 'Roboto Condensed' , sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	padding: 0 20px 200px;
 	background-color: #f1f1f1;
 }
@@ -35,7 +35,6 @@ button {
 .container {
 	width: 780px;
 	max-width: 90vw;
-	min-width: 90vw;
 	margin: 0 auto;
 }
 
@@ -136,7 +135,7 @@ button {
 
 .form-filmes button[type="submit"] {
 	background-color: #8CC152;
-	color: #fff; 
+	color: #fff;
 }
 
 .form-filmes button[type="submit"]:hover {
